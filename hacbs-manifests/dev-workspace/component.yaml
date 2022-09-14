@@ -11,4 +11,5 @@ spec:
     git:
       url: https://github.com/gbenhaim/kcp-glbc
       revision: main
+      dockerfileUrl: https://raw.githubusercontent.com/gbenhaim/kcp-glbc/main/./Dockerfile
 
