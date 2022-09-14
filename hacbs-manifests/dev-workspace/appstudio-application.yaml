@@ -7,7 +7,3 @@ metadata:
 spec:
   description: kcp-glbc
   displayName: kcp-glbc
-  appModelRepository:
-    url: https://github.com/gbenhaim/kcp-glbc-hacbs
-    branch: main
-    context: deployment-manifests

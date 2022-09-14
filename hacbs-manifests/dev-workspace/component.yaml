@@ -7,7 +7,6 @@ metadata:
 spec:
   componentName: kcp-glbc
   application: kcp-glbc-app
-  skipGitOpsResourceGeneration: true
   source:
     git:
       url: https://github.com/gbenhaim/kcp-glbc
