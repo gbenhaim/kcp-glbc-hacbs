@@ -1,0 +1,15 @@
+apiVersion: appstudio.redhat.com/v1alpha1
+kind: Component
+metadata:
+  name: kcp-glbc
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
+spec:
+  componentName: kcp-glbc
+  application: kcp-glbc-app
+  skipGitOpsResourceGeneration: true
+  source:
+    git:
+      url: https://github.com/gbenhaim/kcp-glbc
+      revision: main
+

@@ -1,0 +1,13 @@
+apiVersion: appstudio.redhat.com/v1alpha1
+kind: Application
+metadata:
+  name: kcp-glbc-app
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
+spec:
+  description: kcp-glbc
+  displayName: kcp-glbc
+  appModelRepository:
+    url: https://github.com/gbenhaim/kcp-glbc-hacbs
+    branch: main
+    context: deployment-manifests
