@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    path: app
+    path: hacbs-manifests/dev-workspace
     repoURL: https://github.com/gbenhaim/kcp-glbc-hacbs
     targetRevision: main
   destination:
